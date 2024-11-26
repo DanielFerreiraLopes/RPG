@@ -64,7 +64,6 @@ class Player {
         
         for ($i = 2; $i <= $this->getNivel(); $i++){
             $capacidade = $capacidade + ($i * 3);
-            echo $capacidade . "</br>";
         }
 
         return $capacidade;
