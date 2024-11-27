@@ -9,7 +9,7 @@ $defesa3 = new Defesa("Armadura (Joelheira)");
 $defesa4 = new Defesa("Armadura (Botas)");
 $magia1 = new Magia("Cajado");
 
-$player1 = new Player("Daran", 5);
+$player1 = new Player("Daran");
 
 
 $player1->coletarItem($magia1);
