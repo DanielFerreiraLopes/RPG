@@ -11,7 +11,6 @@ $magia1 = new Magia("Cajado");
 
 $player1 = new Player("Daran", 5);
 
-echo $player1->inventario->getCapacidadeMaxima();
 
 $player1->coletarItem($magia1);
 $player1->coletarItem($ataque1);
