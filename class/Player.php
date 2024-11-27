@@ -6,9 +6,9 @@ class Player {
     private int $nivel;
     public Inventario $inventario;
 
-    public function __construct(string $nickname, int $nivel){
+    public function __construct(string $nickname){
         $this->setNickname($nickname); 
-        $this->setNivel($nivel);
+        $this->setNivel(1);
         $this->inventario = new Inventario($this->calcularNivelInventario());
     }
 
