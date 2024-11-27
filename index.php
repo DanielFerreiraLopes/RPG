@@ -21,13 +21,20 @@ $player1->coletarItem($defesa4);
 
 $player1->listarItens();
 
+echo "<hr>";
+
 $player1->soltarItem(0);
+
+echo "<hr>";
 
 $player1->listarItens();
 
+echo "<hr>";
 
 $player1->subirNivel();
+echo "<hr>";
 $player1->subirNivel();
+echo "<hr>";
 $player1->subirNivel();
 
 // $inventario = new Inventario(20);
